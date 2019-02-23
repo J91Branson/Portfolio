@@ -8,6 +8,8 @@ h1 {
 
 h3 {
     font-family: 'ZCOOL KuaiLe', cursive;
+    color: white;
+    /* text-align: center; */
 }
 
 p {
@@ -16,3 +18,4 @@ p {
 nav {
     font-family: 'Ultra', serif;
 }
+
