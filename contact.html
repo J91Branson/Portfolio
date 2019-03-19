@@ -24,6 +24,7 @@
           </div>
         </div>
       </nav>
+      <br>
 
       <style>
             body {font-family: Arial, Helvetica, sans-serif;}
@@ -73,64 +74,30 @@
                 </div>
             </div>
               
-              <form action="/action_page.php">
+                <div class="form-group">
                 <label for="fname" class="text-white">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            
+                <input type="text" id="fname" name="fname" class="form-control" placeholder="Your name..">
+                </div>
+                <div class="form-group">
                 <label for="lname" class="text-white">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            
-                <label for="country" class="text-white">Email</label>
-                <input type="text" id="email" name="email" placeholder="Your email">
-             
+                <input type="text" id="lname" name="lname" class="form-control" placeholder="Your last name..">
+                </div>
+                <div class="form-group">
+                <label for="email" class="text-white">Email</label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="Your email">
+                </div>
+                <div class="form-group">
                 <label for="subject" class="text-white">Message</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            
-                <input type="submit" value="Submit">
-              </form>
+                <input type="text-area" id="text" name="text" class="form-control" placeholder="Write something.." style="height:200px">
+                </div>
+                <div class="form-group">
+                <input type="submit" value="Submit" id="submit-btn">
+                </div>
+              
             </div>
-        
-          
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+            <script src="../Bootstrap-repository/assets/javascript/app.js"></script>
 
 
 
