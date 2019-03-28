@@ -17,8 +17,15 @@ p {
 }
 nav {
     font-family: 'Ultra', serif;
+    font-size: 150%;
+}
+.navbar-brand {
+    font-size: 200%;
+}
+.nav-item {
+    float: right;
+    color: whitesmoke;
 }
 p {
     text-indent: 10%;
 }
-
