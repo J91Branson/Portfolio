@@ -1,9 +1,13 @@
 body {
-    background: #505661;
+    background: #ABA4AD;
 }
 
 h1 {
     font-family: 'ZCOOL KuaiLe', cursive;
+}
+h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: black;
 }
 
 h3 {
@@ -18,6 +22,10 @@ p {
 nav {
     font-family: 'Ultra', serif;
     font-size: 150%;
+    
+}
+.navbar{
+    background-color:#5D5261 !important;
 }
 .navbar-brand {
     font-size: 100%;
@@ -28,4 +36,22 @@ nav {
 }
 p {
     text-indent: 10%;
+}
+
+.container {
+    background-color: #596148 !important;
+}
+
+.card {
+    background-color: #596148 !important;    
+}
+#contactinfo {
+    text-align: center;
+}
+#informationtext{
+    display: inline-block;
+    font-size: 200%;
+}
+#aboutmetext{
+    font-size: 120%;
 }
