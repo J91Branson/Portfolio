@@ -1,7 +1,6 @@
 body {
     background: #ABA4AD;
 }
-
 h1 {
     font-family: 'ZCOOL KuaiLe', cursive;
 }
@@ -9,13 +8,11 @@ h2 {
     font-family: 'ZCOOL KuaiLe', cursive;
     color: black;
 }
-
 h3 {
     font-family: 'ZCOOL KuaiLe', cursive;
     color: white;
     /* text-align: center; */
 }
-
 p {
     font-family: 'ZCOOL KuaiLe', cursive;
 }
@@ -37,11 +34,9 @@ nav {
 p {
     text-indent: 10%;
 }
-
 .container {
     background-color: #596148 !important;
 }
-
 .card {
     background-color: #596148 !important;    
 }
@@ -54,4 +49,11 @@ p {
 }
 #aboutmetext{
     font-size: 120%;
+}
+.portfolio1 {
+    border: 10px solid #596148;
+    border-radius: 10px;
+}
+.GitHubAnchor {
+    color: black;
 }
