@@ -26,9 +26,10 @@ nav {
     font-size: 150%;
     
 }
-
 .navbar-brand {
     font-size: 100%;
+    color: whitesmoke;
+    
 }
 .nav-item {
     float: right;
@@ -55,4 +56,7 @@ p {
 }
 .GitHubAnchor{
     color: whitesmoke;
+}
+.topnav{
+    padding-left: 70px;
 }
