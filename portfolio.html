@@ -1,193 +1,157 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>JB's Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="../Bootstrap-repository/assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme|Cabin" rel="stylesheet">
  </head>
 
-<body>
+ <body>
     <style>
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-       
-        
-        .topnav {
-          overflow: hidden;
-          background-color: #5D5261;
-          position: relative;
-        }
-        
-        .topnav #myLinks {
-          display: none;
-        }
-        
-        .topnav a {
-          color: white;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 14px;
-        }
-        
-        .topnav a.icon {
-          background: black;
-          display: block;
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        
-        .topnav a:hover {
-          background-color: #ddd;
-          color: black;
-        }
-        
-        .active {
-            background-color: #5D5261;
-          color: white;
-        }
-        </style>
-        </head>
-        <body>
-        
-        
-        
-        
-        <div class="topnav">
-                <a class="navbar-brand" href="#">Joshua Branson</a>
-                <a class="navbar-brand" href="../Bootstrap-repository/index.html">About Me</a>
-                <a class="navbar-brand" href="../Bootstrap-repository/contact.html">Contact Me</a>
-          <div id="myLinks">
-          <a class="nav-item nav-link active" href="https://icodemag.com/author/j91branson/" target="_blank"><i class="fas fa-pen-square"></i> iC0de Mag</a>
-          <a class="nav-item nav-link active" href="https://medium.com/@joshuabranson" target="_blank"><i class="fas fa-pen-square"></i> Medium</a>
-          <a class="nav-item nav-link active" href="https://twitter.com/J91Branson" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a class="nav-item nav-link active" href="https://www.youtube.com/channel/UCAUlZPmc892w7gzbsVfjZ3A/featured" target="_blank"><i class="fab fa-youtube"></i></a>
-          <a class="nav-item nav-link active" href="https://github.com/J91Branson" target="_blank"><i class="fab fa-github"></i></a>
-          <a class="nav-item nav-link active" href="https://www.linkedin.com/in/j91branson/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-        
+    body {
+      font-family: 'Cabin', sans-serif;
+    }
+    
+   
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #5D1BE3;
+      position: relative;
+    }
           
-        
-        
-        <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-        </script>
-
-<br>
-
-  
-
-  <div class="container-fluid">
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+              
+    .topnav a:hover {
+      background-color: #ddd;
+      color: #E3D71B;
+    }
+    a:hover {
+      background-color: #ddd;
+      color: #E3D71B;
+    }
     
-    
-    <div class="row">
-      <div class="col-sm-12 text-white">
-          <h1>Portfolio</h1>
-      </div>
-    </div><br><br>
-    
-    <div class="portfolio1">
-    <div class="row">
-      <div class="col-sm-12 text-white">
-          <h2>Games</h2>
-      </div>
-    </div><br><br>
-    <div class="row">
-      <div class="col-sm-4">
-        <a href="https://j91branson.github.io/GuessTheComputer-sLetterGame/"><img  src="../Bootstrap-repository/assets/images/Guessing Game.PNG" alt="Project 1"
-        class="img-thumbnail" ></a>
-        <h3>Guess the Computer's Letter Game</h3>
-        <a class="GitHubAnchor" href="https://github.com/J91Branson/GuessTheComputer-sLetterGame" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
-      </div>
-      <div class="col-sm-4">
-        <a href="https://j91branson.github.io/Guess-The-Number-Game/"><img src="../Bootstrap-repository/assets/images/NumberGuessPuzzleGame.PNG" alt="Project 2"
-        class="img-thumbnail"></a>
-        <h3>Guess The Number Game </h3>
-        <a class="GitHubAnchor" href="https://github.com/J91Branson/Guess-The-Number-Game" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
-      </div>
-      <div class="col-sm-4">
-        <a href="https://j91branson.github.io/TriviaGame/"><img src="../Bootstrap-repository/assets/images/Trivia Game.PNG" alt="Project 3"
-          class="img-thumbnail"></a>
-          <h3>Trivia Game</h3>
-          <a class="GitHubAnchor" href="https://github.com/J91Branson/TriviaGame" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
-      </div>
-    </div>
-  </div>
-  </div>
-  <br>
-
-  <div class="container-fluid">
+    .active {
+        background-color: #5D1BE3;
+      color: white;
+    }
+    </style>
+    </head>
+    <body>
       
-      <div class="portfolio1">
-      <div class="row">
-          <div class="col-sm-12 text-white">
-              <h2>Apps</h2>
-          </div>
-        </div><br><br>
+      
+      
+      
+      <div class="topnav">
+              <a class="navbar-brand" href="#">Joshua Branson</a>
+              <a class="navbar-brand" href="index.html">About Me</a>
+              <a class="navbar-brand" href="contact.html">Contact Me</a>
+              </div><br>
 
-    <div class="row">
-      <div class="col-sm-4">
-        <a href="https://j91branson.github.io/GifTasticHW/"><img src="../Bootstrap-repository/assets/images/Gif Tastic.PNG" alt="Project 4"
-        class="img-thumbnail"></a>
-        <h3>Gif Tastic</h3>
-        <a class="GitHubAnchor" href="https://github.com/J91Branson/GifTasticHW" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
-      </div>
-      <div class="col-sm-4">
-      </div>
-      <div class="col-sm-4">
-        <a href="https://j91branson.github.io/TrainScheduler/"><img src="../Bootstrap-repository/assets/images/Train Scheduler.PNG" alt="Project 5"
-        class="img-thumbnail"></a>
-        <h3>Train Scheduler</h3>
-        <a class="GitHubAnchor" href="https://github.com/J91Branson/TrainScheduler" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
-      </div>
-  </div>
-</div>
-</div>
-<br>
-  
+
+
+
 
 <div class="container-fluid">
-      
+  
+  
+  <div class="row">
+    <div class="col-sm-12 text-white">
+        <h1>Portfolio:</h1>
+    </div>
+  </div><br><br>
+  
+  <div class="portfolio1">
+  <div class="row">
+    <div class="col-sm-12 text-white">
+        <h2>Games</h2>
+    </div>
+  </div><br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="https://j91branson.github.io/GuessTheComputer-sLetterGame/" target="_blank"><img  src="Guessing Game.PNG" alt="Project 1"
+      class="img-thumbnail" ></a>
+      <h3>Guess the Computer's Letter Game</h3>
+      <a class="GitHubAnchor" href="https://github.com/J91Branson/GuessTheComputer-sLetterGame" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
+    </div>
+    <div class="col-sm-4">
+      <a href="https://j91branson.github.io/Guess-The-Number-Game/" target="_blank"><img src="NumberGuessPuzzleGame.PNG" alt="Project 2"
+      class="img-thumbnail"></a>
+      <h3>Guess The Number Game </h3>
+      <a class="GitHubAnchor" href="https://github.com/J91Branson/Guess-The-Number-Game" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
+    </div>
+    <div class="col-sm-4">
+      <a href="https://j91branson.github.io/TriviaGame/" target="_blank"><img src="Trivia Game.PNG" alt="Project 3"
+        class="img-thumbnail"></a>
+        <h3>Trivia Game</h3>
+        <a class="GitHubAnchor" href="https://github.com/J91Branson/TriviaGame" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
+    </div>
+  </div>
+</div>
+</div>
+<br><br><br><br>
+
+<div class="container-fluid">
+    
     <div class="portfolio1">
     <div class="row">
         <div class="col-sm-12 text-white">
-            <h2>Group Projects</h2>
-           </div>
+            <h2>Apps</h2>
+        </div>
       </div><br><br>
 
   <div class="row">
     <div class="col-sm-4">
-      <a href="https://historybro.github.io/group-project-1/"><img src="../Bootstrap-repository/assets/images/BetterDex.png" alt="Project 4"
+      <a href="https://j91branson.github.io/GifTasticHW/" target="_blank"><img src="Gif Tastic.PNG" alt="Project 4"
       class="img-thumbnail"></a>
-      <h3>BetterDex</h3>
-      <a class="GitHubAnchor" href="https://github.com/historybro/group-project-1" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
+      <h3>Gif Tastic</h3>
+      <a class="GitHubAnchor" href="https://github.com/J91Branson/GifTasticHW" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+      <a href="https://j91branson.github.io/TrainScheduler/" target="_blank"><img src="Train Scheduler.PNG" alt="Project 5"
+      class="img-thumbnail"></a>
+      <h3>Train Scheduler</h3>
+      <a class="GitHubAnchor" href="https://github.com/J91Branson/TrainScheduler" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
+    </div>
+</div>
+</div>
+</div>
+<br><br><br><br>
 
+
+<div class="container-fluid">
+    
+  <div class="portfolio1">
+  <div class="row">
+      <div class="col-sm-12 text-white">
+          <h2>Group Projects</h2>
+         </div>
+    </div><br><br>
+
+<div class="row">
+  <div class="col-sm-4">
+    <a href="https://historybro.github.io/group-project-1/" target="_blank"><img src="BetterDex.png" alt="Project 4"
+    class="img-thumbnail"></a>
+    <h3>BetterDex</h3>
+    <a class="GitHubAnchor" href="https://github.com/historybro/group-project-1" target="_blank"><i class="fab fa-github"></i> Code is here.</a>
+
+  </div>
+  <div class="col-sm-4">
+  </div>
+  <div class="col-sm-4">
     </div>
-    <div class="col-sm-4">
-    </div>
-    <div class="col-sm-4">
-      </div>
 </div>
 </div>
 
@@ -203,6 +167,8 @@
 
 
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+              <script src="app.js"></script>
 </body>
 
 </html>

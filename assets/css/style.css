@@ -1,23 +1,28 @@
 body {
-    background: #ABA4AD;
+    background: #380996;
 }
 h1 {
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'BioRhyme', serif;
+    color: whitesmoke;
 }
 h2 {
-    font-family: 'ZCOOL KuaiLe', cursive;
-    color: black;
+    font-family: 'BioRhyme', serif;
+    color: whitesmoke;
 }
 h3 {
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'BioRhyme', serif;
     color: white;
     /* text-align: center; */
 }
 p {
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'BioRhyme', serif;
+    color: whitesmoke;
+}
+a {
+    color: black;
 }
 nav {
-    font-family: 'Ultra', serif;
+    font-family: 'BioRhyme', serif;
     font-size: 150%;
     
 }
@@ -33,10 +38,10 @@ p {
     text-indent: 10%;
 }
 .container {
-    background-color: #596148 !important;
+    background-color: #5D1BE3 !important;
 }
 .card {
-    background-color: #596148 !important;    
+    background-color: #5D1BE3 !important;    
 }
 #contactinfo {
     text-align: center;
@@ -48,10 +53,6 @@ p {
 #aboutmetext{
     font-size: 120%;
 }
-.portfolio1 {
-    border: 10px solid #596148;
-    border-radius: 10px;
-}
-.GitHubAnchor {
-    color: black;
+.GitHubAnchor{
+    color: whitesmoke;
 }

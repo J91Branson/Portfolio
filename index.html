@@ -1,110 +1,74 @@
 <!DOCTYPE html>
 <html>
-    
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>JB's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="../Bootstrap-repository/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme|Cabin" rel="stylesheet">
     </head>
 
-<body>
+
+    <body>
         <style>
-                body {
-                  font-family: Arial, Helvetica, sans-serif;
-                }
-                
-               
-                
-                .topnav {
-                  overflow: hidden;
-                  background-color: #5D5261;
-                  position: relative;
-                }
-                
-                .topnav #myLinks {
-                  display: none;
-                }
-                
-                .topnav a {
-                  color: white;
-                  padding: 14px 16px;
-                  text-decoration: none;
-                  font-size: 14px;
-                }
-                
-                .topnav a.icon {
-                  background: black;
-                  display: block;
-                  position: absolute;
-                  right: 0;
-                  top: 0;
-                }
-                
-                .topnav a:hover {
-                  background-color: #ddd;
-                  color: black;
-                }
-                
-                .active {
-                    background-color: #5D5261;
-                  color: white;
-                }
-                </style>
-                </head>
-                <body>
+        body {
+          font-family: 'Cabin', sans-serif;
+        }
+        
+       
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #5D1BE3;
+          position: relative;
+        }
+              
+        .topnav a {
+          color: white;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 14px;
+        }
+                  
+        .topnav a:hover {
+          background-color: #ddd;
+          color: #E3D71B;
+        }
+        a:hover {
+          background-color: #ddd;
+          color: #E3D71B;
+        }
+        
+        .active {
+            background-color: #5D1BE3;
+          color: white;
+        }
+        </style>
+        </head>
+        <body>
                 
                 
                 
                 
                 <div class="topnav">
                         <a class="navbar-brand" href="#">Joshua Branson</a>
-                        <a class="navbar-brand" href="../Bootstrap-repository/contact.html">Contact</a>
-                        <a class="navbar-brand" href="../Bootstrap-repository/portfolio.html">Portfolio</a>
-                  <div id="myLinks">
-                  <a class="nav-item nav-link active" href="https://icodemag.com/author/j91branson/" target="_blank"><i class="fas fa-pen-square"></i> iC0de Mag</a>
-                  <a class="nav-item nav-link active" href="https://medium.com/@joshuabranson" target="_blank"><i class="fas fa-pen-square"></i> Medium</a>
-                  <a class="nav-item nav-link active" href="https://twitter.com/J91Branson" target="_blank"><i class="fab fa-twitter"></i></a>
-                  <a class="nav-item nav-link active" href="https://www.youtube.com/channel/UCAUlZPmc892w7gzbsVfjZ3A/featured" target="_blank"><i class="fab fa-youtube"></i></a>
-                  <a class="nav-item nav-link active" href="https://github.com/J91Branson" target="_blank"><i class="fab fa-github"></i></a>
-                  <a class="nav-item nav-link active" href="https://www.linkedin.com/in/j91branson/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                  </a>
-                </div>
-                
-                  
-                
-                
-                <script>
-                function myFunction() {
-                  var x = document.getElementById("myLinks");
-                  if (x.style.display === "block") {
-                    x.style.display = "none";
-                  } else {
-                    x.style.display = "block";
-                  }
-                }
-                </script>
-        
-       <br>
+                        <a class="navbar-brand" href="contact.html">Contact</a>
+                        <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                        </div><br>
         
     
 
     
-
-
     <div class="container bg-dark">
         <div class="row">
             <div class="col-sm-12 text-white">
-                <h1>About Me</h1>
+                <h1>About Me:</h1>
+                <a id="resumebutton" href="Resume.pdf" target="_blank"><button type="button" class="btn btn-primary">Resume</button></a>
+                <br>
+                <br>
             </div>
         </div>
     </div>
@@ -114,12 +78,12 @@
 
     <div class="container  bg-dark">
         <div class="row">
-            <div class="col-sm"><br>
-                <img src="../Bootstrap-repository/Snapchat-160145895_2.jpg" alt="Portfolio_JB"
-                    class="img-thumbnail"><br><br>
-                    <a id="resumebutton" href="../Bootstrap-repository/Resume.pdf" target="_blank"><button type="button" class="btn btn-primary">Resume</button></a>
+            <div class="col-sm">
+                <img src="20190409_004220_3.jpg" alt="Portfolio_JB"
+                    class="img-thumbnail">
+                    <br><br>
             </div>
-            <div id="aboutmetext" class="col-sm text-black"><br>
+            <div id="aboutmetext" class="col-sm text-black">
                 <p>I got into coding to get into a career I could enjoy and excel at; I started off learning some on my own and then found a Code Camp at SMU. I enjoyed coding right away, as I got further involved I met the struggles and frustrations like all coders. I pushed through the challenges I faced and found that while frustrating everytime I figured out a tough problem my skills became better. After learning more and more I enjoy coding a little more each day; and look forward to a rewarding career.</p>
                 <p>The thing that helps me in this field is my previous experience in the security field; it has made me more able to handle stressful situations and push through long hours of work. I think the other thing I get from this experience is the ability to interact with other people and teach people. I was a field training officer and then an assistant manager; so I understand teaching people and can be a good leader.</p>
                 <p>I guess the approach I take to work is to be laid back and productive; work should be fun and still a productive enviroment. Humor can make a great de-stresser and the more co-workers get along the more productive the team is.
@@ -160,7 +124,8 @@
 
 
 
-
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="app.js"></script>
 </body>
 
 </html>
