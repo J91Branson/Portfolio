@@ -1,5 +1,6 @@
 body {
-    background: #380996;
+    font-family: 'Cabin', sans-serif;
+    background: #000000;
 }
 h1 {
     font-family: 'BioRhyme', serif;
@@ -18,22 +19,11 @@ p {
     font-family: 'BioRhyme', serif;
     color: whitesmoke;
 }
+.blockquote-footer{
+color: whitesmoke;
+}
 a {
     color: black;
-}
-nav {
-    font-family: 'BioRhyme', serif;
-    font-size: 150%;
-    
-}
-.navbar-brand {
-    font-size: 100%;
-    color: whitesmoke;
-    
-}
-.nav-item {
-    float: right;
-    color: whitesmoke;
 }
 p {
     text-indent: 10%;
@@ -44,6 +34,41 @@ p {
 .card {
     background-color: #5D1BE3 !important;    
 }
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #5D1BE3;
+  }
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
 #contactinfo {
     text-align: center;
 }
@@ -56,7 +81,4 @@ p {
 }
 .GitHubAnchor{
     color: whitesmoke;
-}
-.topnav{
-    padding-left: 70px;
 }
