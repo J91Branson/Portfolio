@@ -45,6 +45,9 @@ p {
 #aboutmetext{
     font-size: 120%;
 }
+#projecttext{
+  font-size: 300%;
+}
 .GitHubAnchor{
     color: whitesmoke;
 }
